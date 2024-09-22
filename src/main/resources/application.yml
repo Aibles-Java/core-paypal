@@ -1,0 +1,8 @@
+application:
+  paypal:
+    client-id: ${PAYPAL_CLIENT_ID}
+    client-secret: ${PAYPAL_CLIENT_SECRET}
+    base-url: https://api-m.sandbox.paypal.com
+    tunnel-url: ${PAYPAL_TUNNEL_URL}
+    success-path: /paypal/success
+    cancel-path: /paypal/cancel
