@@ -18,9 +18,9 @@ import org.springframework.web.client.RestTemplate;
 @Slf4j
 public class AccessTokenUtil {
 
-  private RestTemplate restTemplate;
+  private final RestTemplate restTemplate;
 
-  private PaypalConfiguration paypalConfiguration;
+  private final PaypalConfiguration paypalConfiguration;
 
   public  String getAccessToken() {
     log.info("(getAccessToken)");
