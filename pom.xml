@@ -8,7 +8,7 @@
 		<version>3.3.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>org.aibles.core_paypal</groupId>
+	<groupId>org.aibles</groupId>
 	<artifactId>core_paypal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>core_paypal</name>
